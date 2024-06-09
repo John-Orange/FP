@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <ImageButton
+            android:id="@+id/buttonSwimming"
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Swimming"
+            android:padding="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/swimming1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swimming"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="@android:color/transparent" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <ImageButton
+            android:id="@+id/buttonHiking"
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:src="@drawable/hiking"
+            android:contentDescription="Hiking"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="16dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hiking"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="@android:color/transparent" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <ImageButton
+            android:id="@+id/buttonRunning"
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:src="@drawable/running"
+            android:contentDescription="Running"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="16dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Running"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="@android:color/transparent" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <ImageButton
+            android:id="@+id/buttonRowing"
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Rowing"
+            android:padding="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rowing" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rowing"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="@android:color/transparent" />
+    </FrameLayout>
+
+</LinearLayout>
